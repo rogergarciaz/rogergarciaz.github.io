@@ -1,14 +1,15 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?bqb2fe');
-  src:  url('../fonts/icomoon.eot?bqb2fe#iefix') format('embedded-opentype'),
+  src: url('../fonts/icomoon.eot?bqb2fe');
+  src: url('../fonts/icomoon.eot?bqb2fe#iefix') format('embedded-opentype'),
     url('../fonts/icomoon.ttf?bqb2fe') format('truetype'),
     url('../fonts/icomoon.woff?bqb2fe') format('woff'),
     url('../fonts/icomoon.svg?bqb2fe#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-[class^="icon-"], [class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -23,25 +24,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .icon-menu:before {
-  content: "\e900";
+  content: '\e900';
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
-h1, 
+h1,
 h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
 }
 h1 {
   font-size: 40px;
   line-height: 1.5;
-  letter-spacing: -.2px;
+  letter-spacing: -0.2px;
   color: white;
   margin: 0;
 }
@@ -64,7 +65,7 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.hero-image{
+.hero-image {
   object-fit: cover;
 }
 .portfolio {
@@ -181,7 +182,7 @@ figure {
 .event-list-title {
   margin-left: 20px;
 }
-.event { 
+.event {
   margin: 1%;
   width: 48%;
   flex-shrink: 0;
@@ -241,7 +242,7 @@ figure {
   background-image: url('../images/linkedin.png');
 }
 .social-link.cv {
-  background-image: url('../images/cv.png');
+  background-image: url('../images/C-V.PNG');
 }
 .form-email input {
   border-color: gray;
@@ -264,12 +265,12 @@ figure {
   margin-top: 10px;
   text-decoration: none;
   text-align: center;
-  border: .1rem solid white;
+  border: 0.1rem solid white;
 }
 .form-email a:hover {
   background-color: rgba(255, 255, 255, 0.274);
 }
-.form-email h3 { 
+.form-email h3 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
@@ -286,7 +287,7 @@ figure {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, 0.8);
   display: none;
   line-height: 40px;
   text-align: center;
@@ -350,7 +351,7 @@ figure {
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 1.2em;
-    margin: .5em 0;
+    margin: 0.5em 0;
   }
   .burger-button {
     display: block;
@@ -370,7 +371,7 @@ figure {
     height: 40px;
     font-size: 2em;
     text-decoration: underline;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   .header .logo {
     text-align: center;
@@ -386,7 +387,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: 0.3s;
   }
   .menu.is-active {
     left: 0;
@@ -401,18 +402,20 @@ figure {
   .project-details {
     width: auto;
   }
-  .project-course, .project-date, .project-url { 
-    margin: .3em 0;
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 0.3em 0;
   }
   .project-title {
     font-size: 1.5em;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
   }
   .project-url {
     font-size: 1em;
   }
   .project-course {
-    font-size: .7em;
+    font-size: 0.7em;
   }
   .project-date {
     font-size: 1em;
@@ -428,7 +431,7 @@ figure {
     width: 100%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   h1 {
     font-size: 1.5em;
   }
@@ -436,7 +439,7 @@ figure {
     font-size: 14px;
   }
   .event-detail {
-    margin: -2em .5em .5em;
+    margin: -2em 0.5em 0.5em;
     padding: 1em;
   }
   .contact {
