@@ -274,7 +274,7 @@ figure {
   font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   flex: 1;
   margin: 0 auto;
   display: inherit;
