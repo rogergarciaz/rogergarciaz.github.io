@@ -216,6 +216,13 @@ figure {
 .event-url:hover {
   background-color: #056dff3f;
 }
+.project-url {
+  color: #ffffff;
+  text-decoration: none;
+}
+.project-url:hover {
+  background-color: #a9a9a9;
+}
 .contact {
   background-color: #056fff;
   color: white;
